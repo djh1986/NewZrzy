@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--
+App配置文件
+-->
+<configuration>
+
+    <!--App名称-->
+	<appname name="时空大数据平台（试用版）" />
+
+	<extent id="1">
+        <xmin xmin="107.200856"></xmin>
+        <ymin ymin="35.198438"></ymin>
+        <xmax xmax="107.733256"></xmax>
+        <ymax ymax="35.468166"></ymax>
+        <srid srid="4490"></srid>
+    </extent>
+
+    <!--Runtime 许可-->
+	<runtimekey license="runtimelite,1000,rud7589376584,none,MJJC7XLS100BNERL1153"/>
+<!--    <runtimekey license="runtimelite,1000,rud7589376584,none,MJJC7XLS100BNERL1153"/>-->
+
+    <ipaddress address="61.178.245.189:9091"/>
+    <!--系统工作空间目录-->
+    <workspace path="/RuntimeViewer"/>
+
+    <!--widget组件列表-->
+    <widgetcontainer>
+        <widget label="图层管理" classname="com.zrzyyzt.runtimeviewer.Widgets.LayerManagerWidget.LayerManagerWidget"
+	             icon="widget_layermanager.png" select_icon="widget_layermanager_select2.png" width="800"/>
+        <widget label="专题检索" classname="com.zrzyyzt.runtimeviewer.Widgets.QueryWidget.QueryWidget"
+	            icon="widget_query.png" select_icon="widget_query_select2.png"  width="800"/>
+<!--        <widget label="要素编辑" classname="com.zrzyyzt.runtimeviewer.Widgets.FeatureEditWidget.FeatureEditWidget"-->
+<!--                icon="widget_featureedit.png" select_icon="widget_featureedit_select2.png"/>-->
+<!--        <widget label="测距量算" classname="com.zrzyyzt.runtimeviewer.Widgets.CalculateWidget.CaculateWidget"-->
+<!--	            icon="widget_caculate.png" select_icon="widget_caculate_select2.png"/>-->
+        <widget label="统计分析" classname="com.zrzyyzt.runtimeviewer.Widgets.StatisticsWidget.StatisticsWidget"
+            icon="widget_statistics_icon.png" select_icon="widget_statistics_select_icon.png" width="1000" />
+        <widget label="地名检索" classname="com.zrzyyzt.runtimeviewer.Widgets.PlaceNameSearchWidget.PlaceNameSearchWidget"
+            icon="widget_palcenamesearch_icon.png" select_icon="widget_placenamesearch_select_icon.png" width="800" />
+        <widget label="周边查询" classname="com.zrzyyzt.runtimeviewer.Widgets.PeripheralQueryWidget.PeripheralQueryWidget1"
+            icon="widget_peripheralquery_icon.png" select_icon="widget_peripheralquery_select_icon.png" width="800" />
+        <widget label="地图标绘" classname="com.zrzyyzt.runtimeviewer.Widgets.DrawWidget.DrawWidget1"
+            icon="widget_draw_grey.png" select_icon="widget_draw_select2.png" width="600"/>
+        <widget label="书签管理"  classname="com.zrzyyzt.runtimeviewer.Widgets.BookmarkWidget.BookmarkWidget"
+                icon="widget_bookmark_grey.png" select_icon="widget_bookmark_select2.png" width="700"/>
+        <widget label="文档管理"  classname="com.zrzyyzt.runtimeviewer.Widgets.DocManagerWidget.DocManagerWidget"
+            icon="widget_document.png" select_icon="widget_document_select.png" width="1500" />
+        <widget label="轨迹管理" classname="com.zrzyyzt.runtimeviewer.Widgets.TraceRecordWidget.TraceRecordWidget"
+            icon="widget_trace_icon.png" select_icon="widget_trace_select_icon.png" width="600" />
+        <widget label="关于App" classname="com.zrzyyzt.runtimeviewer.Widgets.AboutWidget.AboutWidget" width="800"
+            icon="widget_about.png" select_icon="widget_about_select.png"/>
+    </widgetcontainer>
+</configuration>

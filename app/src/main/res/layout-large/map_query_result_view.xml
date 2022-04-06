@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/map_query_result_layout"
+        android:orientation="vertical"
+        android:layout_width="200dp"
+        android:layout_height="380dp"
+        android:paddingBottom="1dp"
+        android:paddingRight="1dp"
+        android:background="@drawable/map_shadow_bg">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/query_result">
+        </TextView>
+        <LinearLayout
+            android:id="@+id/map_query_result_context_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/zoom_button_topcorner">
+            <TextView
+                android:id="@+id/map_query_result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/query_result_context"
+                android:textSize="@dimen/zoom_font_size"
+                android:paddingBottom="@dimen/zoom_btn_padding"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

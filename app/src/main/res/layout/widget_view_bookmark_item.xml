@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/widget_view_bookmark_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/widget_view_bookmark_item_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_widget_bookmark_btn"
+                >
+            </ImageView>
+            <TextView
+                android:id="@+id/widget_view_bookmark_item_title"
+                android:layout_marginLeft="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:text="@string/widget_txt_boomark_sample"
+                android:layout_weight="1"></TextView>
+            <Button
+                android:id="@+id/widget_view_bookmark_btnmore"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_more_btn" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@color/light_gray"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="图层：  "
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/map_query_result_view_1_txtLayerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="未选中图层"
+                android:textColor="@color/colorPrimary" />
+            <TextView
+                android:id="@+id/map_query_result_view_1_closebtn"
+                android:textColor="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:background="@drawable/ic_item_touch_txtred"
+                android:text="@string/close"
+                android:gravity="right"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/grey" />
+<!--        <ListView-->
+<!--            android:id="@+id/widget_view_query_mapquery_1_fieldListview"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+        <de.codecrafters.tableview.TableView
+            android:id="@+id/map_query_result_view_1_tableView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:tableView_columnCount="2"
+            app:tableView_headerColor="@color/light_gray"
+            app:tableView_headerElevation="5"
+            android:divider="@color/white"
+            android:dividerHeight="1dip">
+
+        </de.codecrafters.tableview.TableView>
+        </LinearLayout>
+</LinearLayout>

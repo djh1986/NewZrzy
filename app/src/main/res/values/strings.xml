@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">自然资源一张图移动应用系统</string>
+    <string name="app_title_name_mian">自然资源一张图移动应用系统</string>
+    <string name="app_title_name_subhead">基于ArcGIS Runtime SDK 100.x</string>
+    <string name="app_company">Copyright © </string>
+
+    <!--解锁信息-->
+    <string name="loginRemark">请输入解锁密码</string>
+    <string name="permission">权限(permission)</string>
+    <string name="no_permissions">应用需要必要的运行权限</string>
+
+    <!--权限配置-->
+    <string name="settings">设置</string>
+    <string name="close">关闭</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <!--地名查询-->
+    <string name="address_search_hint">Enter address</string>
+    <string name="geo_locate_error">Geocode failed on address.</string>
+    <string name="location_not_found">No location with that name: </string>
+
+    <!--    菜单-->
+    <string name="cross">定位</string>
+    <string name="printScreen">截屏</string>
+    <string name="camera">拍照</string>
+    <string name="photo">相册</string>
+    <string name="measure">测量</string>
+    <string name="panorama">街景</string>
+    <string name="exit">退出</string>
+
+
+    <!--地图窗口-->
+    <string name="txt_location_info">(开启GPS) 坐标信息</string>
+
+    <string name="zoom_out_text">缩小</string>
+    <string name="zoom_in_text">放大</string>
+
+    <string name="zoom_rotate_text">旋转</string>
+    <string name="map_north_text">指北</string>
+    <string name="map_location_text">定位</string>
+    <string name="map_query_text">查询</string>
+
+
+    <string name="measure_length_text">测距</string>
+    <string name="measure_area_text">测面积</string>
+    <string name="measure_clear_text">清除</string>
+    <string name="measure_end_text">完成</string>
+    <string name="measure_prev_text">撤销</string>
+    <string name="measure_next_text">恢复</string>
+    <string name="measure_polyline_text">量算长度</string>
+    <string name="measure_point_text">获取坐标</string>
+    <string name="measure_tool">量算工具</string>
+    <string name="clear">清除</string>
+    <string name="measure_result">量算结果</string>
+    <string name="empty">空</string>
+    <string name="measure_description">说明：选择量算工具开始使用量算功能。当绘制要素为线、面时需双击屏幕结束绘制获取量算结果。</string>
+    <string name="txt_scale_info">比例尺</string>
+    <string name="txt_toggle">ToggleButton</string>
+    <string name="widget_txt_mapquery">图查属性</string>
+    <string name="widget_txt_querymap">属性查图</string>
+    <string name="widget_txt_bookmark">位置书签</string>
+    <string name="widget_txt_add">添加</string>
+    <string name="widget_txt_clear">清除</string>
+    <string name="widget_txt_boomark_sample">兰州市</string>
+
+    <string name="pick_file">浏览文件</string>
+    <string name="toast_pick_file_error">浏览文件错误</string>
+
+    <string name="trace_record">轨迹记录</string>
+    <string name="trace_record_list">轨迹列表</string>
+    <string name="trace_record_name">轨迹名称</string>
+
+
+    <string name="draw_tool">绘图工具</string>
+    <string name="draw_point_text">点</string>
+    <string name="draw_polyline_text">线</string>
+    <string name="draw_polygon_text">面</string>
+    <string name="draw_envelop_text">矩形</string>
+    <string name="draw_freepolyline_text">流状线</string>
+    <string name="draw_freepolygon_text">流状面</string>
+    <string name="draw_circle_text">圆</string>
+    <string name="draw_text_text">文字</string>
+
+    <string name="select_symbol_text">选择符号</string>
+    <string name="draw_setting">设置</string>
+    <string name="draw_text_description">描述:先设置标绘内容和文字大小，然后点击地图窗口，即可添加文本标注</string>
+    <string name="draw_description">描述:先选择标绘样式，然后点击地图窗口进行标绘</string>
+    <string name="picture">拍照</string>
+    <string name="request_permission">权限请求</string>
+
+    <string name="description_info">描述信息</string>
+    <string name="camera_error">该设备不支持拍照</string>
+    <string name="intro_message">介绍信息</string>
+
+
+    <string name="query_result">查询结果</string>
+    <string name="query_result_context">内容</string>
+
+
+
+    <string-array name="fontsizearr">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+</resources>
